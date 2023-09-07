@@ -13,7 +13,7 @@ from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
 
 def init():
-    options = FirefoxOptions()
+    options = FirefoxOptions()  # Options() for chrome
     options.headless = True
     options.add_argument("--headless")
 
